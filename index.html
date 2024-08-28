@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <meta name="description" content="Portafolio Manuel ceron chocue"> 
+    <link rel="shortcut icon" href="img/Sakura.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header class="header background">
+        <article class="border menu2">
+            logo
+        </article>
+
+        <nav class="border menu_principal">
+            <ul class="menu1 ">
+                <li class="item"><a href="registro.html" target="_blank">Sobre mi</a></li>
+                <li class="item"><a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/">Mis proyectos</a></li>
+                <li class="item"><a href="#listas">Pending</a></li>
+                <li class="item"><a href="registro.html#parrafo2">Pending</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <section class="encabezado border fondo">
+            <h1>Encabezado</h1>
+            <h2>Encabezado</h2>
+            <h3>Encabezado</h3>
+            <h4>Encabezado</h4>
+            <h5>Encabezado</h5>
+            <h6>Encabezado</h6>
+        </section>
+        <br>
+        <section class="border">
+            <h1><B>PARRAFOS</B></h1>
+            <p><strong>Lorem ipsum</strong> <i>dolor sit amet consectetur</i> <em>adipisicing elit.</em>
+                <mark>Nobis harum,</mark> <small>iste voluptas ut dolores ipsa possimus</small> <del>culpa distinctio</del> 
+                <ins>dignissimos</ins> <sub>corporis quibusdam 
+                    commodi libero dolorum</sub> <sup>consequatur beatae alias laudantium minus! Ea.</sup></p>
+
+            <!--etiqueta para citas bibliograficas-->
+            <br>  
+            <p>Here is a quote from wwf´s website:</p>
+            <blockquote cite="https://www.worldwildlife.org/">for 50 years. dasiusuhidhiudhui</blockquote>
+        </section>
+
+        <br>
+        <section class="border">
+            <h1 id="listas">Listas</h1>
+            <a href="#top">subir</a>
+            <h2>Lista ordenadas</h2>
+            <ol>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ol>
+            <h3>Listas desordenadas</h3>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+
+            <h4>Listas de definicion</h4>
+            <dl>
+                <dt><strong>Apple 🍎</strong></dt>
+                <dd><i>Just a fruit </i></dd>
+
+                <dt><strong>Grape 🍇</strong></dt>
+                <dd><i>Just another fruit </i></dd>
+            </dl>
+        </section>
+        <section class="border">
+            <table>
+                <h1>TABLAS</h1>
+                <caption class="border">
+                    Titulo de la table
+                </caption>
+                <thead>
+                    <tr>
+                        <th class="border">Hora</th>
+                        <th class="border">Lunes</th>
+                        <th class="border">Martes</th>
+                        <th class="border">Miercoles</th>
+                        <th class="border">Jueves</th>
+                        <th class="border">Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">07:00am - 09:00pm</td>
+                        <td class="border">Ingles</td>
+                        <td class="border">Algoritmos</td>
+                        <td class="border">Diseño web</td>
+                        <td class="border" rowspan="2">Bases de datps</td>
+                        <td class="border" rowspan="2">Matematicas</td>
+                    </tr>
+                    </tr>
+                        <td class="border">09:00am - 10:00pm</td>
+                        <td class="border">DATOS</td>
+                        <td class="border">bases</td>
+                        <td class="border">web</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td class="border alineado" colspan="6">DESCANSO</td>
+                    </tr>
+                    <tr>
+                        <td class="border">10:00 am - 01:00 pm</td>
+                        <td class="border">Deportes</td>
+                        <td class="border">Diseño</td>
+                        <td class="border">Moviles web</td>
+                        <td class="border">Ingles</td>
+                        <td class="border">Tic</td>
+                    </tr>
+                </tbody>
+                    <tfoot>
+                        <td class="border alineado"  colspan="6">ADSO 2024</td>
+                    </tfoot>
+            </table>
+        </section>
+        <section class="border">
+            <h1>FORMULARIOS</h1>
+
+            <form class="form">
+
+                <div>
+                    <label for="Nombre"> Ingrese Nombre</label> <br>
+                    <input id="Nombre" type="text" name="nombre" placeholder="tu nombre" required>
+                </div>      
+
+                <div>
+                    <label for="apellido"> Ingrese Apellido</label> <br>
+                    <input id="apellido" type="text" name="Apellido" placeholder="tu nombre" required>
+                </div>      
+
+                <div>
+                    <fieldset>
+                        <legend>Seleccion de genero</legend>
+
+                            <input type="radio" name="genero" value="masculino"> Masculino
+                            <input type="radio" name="genero" value="femenino"> femenino
+                            <input type="radio" name="genero" value="unknow"> No sabe
+                    </fieldset>
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>Seleccion de hobbie</legend>
+
+                            <input type="radio" name="nado" value="swim"> nadar
+                            <input type="radio" name="deporte" value="sport"> deportes
+                            <input type="radio" name="juegos" value="games"> jeugos
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="fecha">Fecha de nacimiento</label> <br>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+
+                <div>
+                    <label for="pais">Seleccione su pais</label> <br>
+                    <select name="pais" id="pais">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="ecuador">Ecuador</option>
+                    </select>
+                    
+                </div>
+
+                <div>
+                    <label for="ciudad"> Ingrese la iudad donde vive</label> <br>
+                    <input id="ciudad" type="text">
+                </div>
+
+                <div>
+                    <label for="Mensaje">Comentarios</label> <br>
+                    <textarea name="Mensaje" id="Mensaje"> Aqui sus comentarios</textarea>
+                </div>
+                
+                <div>
+                    <label for="Apellido"> Ingrese Apellido</label> <br>
+                    <input id="Apellido" type="text">
+                </div class="flex">
+                
+                <div>
+                    <label for="edad"> Ingrese su edad</label> <br>
+                    <input id="edad" type="text">
+                </div>
+                
+                <div>
+                    <label for="password"> Ingrese su contraseña</label> <br>
+                    <input id="password" type="password">
+                </div>
+
+                <div>
+                    <label for="Email"> Ingrese su correo</label> <br>
+                    <input id="Email" type="email">
+                </div>
+
+                <div>
+                    <label for="documento"> Cargue su documento</label> <br>
+                    <input id = "documento" type="file">
+                </div>
+
+                <button>Registrar</button> 
+
+            </form>       
+
+        <section>
+            <article>
+                <img class="imagen title" src="img/gato.jpg" alt="">
+            </article>
+        </section>
+
+        <section class="images">
+            <article>
+                <iframe width="420" height="315"src="https://www.youtube.com/embed/lu3BwoNfFVE">
+                </iframe>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <audio class="imagen title" src="sound/soundless.mpeg" type = "audio/mpeg">eee</audio>
+            </article>
+        </section>
+
+        <section class="images">
+            <h1>borders</h1>
+            <p class="border1 sombra text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequuntur culpa maxime quos error aliquid explicabo accusantium unde atque eligendi, ut iure ex. Culpa pariatur et voluptatibus, non fugiat vero.</p>
+        </section>
+
+        
+    </main>
+
+    <footer class="footer background">
+        pie del documento
+    </footer>
+
+</body>
+</html>
